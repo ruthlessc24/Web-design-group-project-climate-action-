@@ -1,29 +1,126 @@
-
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: white;
+.sofadi-one-regular {
+  font-family: "Sofadi One", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
-ul li {
-  float: left;
+
+.kablammo-<uniquifier> {
+  font-family: "Kablammo", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 0;
 }
 
-ul li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+.header{
+	font-family: "Kablammo";
+	color: red;
+	font-style: bold;
+
 }
 
-ul li a:hover:not(.active) {
-  background-color: #111111;
+.container{
+	font-family: "Sofadi One";
+	vertical-align: left;
+	align-items: flex-start;
+	
 }
 
-ul li a.active {
-  background-color: #04AA6D;
+ul.container{
+	padding: 5px;
+	padding-left: 25px;
+	width: 250px;
+	border: 5px dotted purple;
+}
+
+.dropdown{
+	font-family: "Sofadi One";
+	margin-left: 370px;
+	font-size: 16px;
+	position: relative;
+	
+}
+
+
+ul.dropdown-content{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	
+}
+
+h2{
+	text-decoration: underline;
+	color: purple;
+	
+}	
+
+p{
+	padding: 15px;
+	padding-left: 8px;
+	padding-top: 5px;
+	width: 250px;
+	border: 5px dotted purple;
+	
+}
+
+h3{
+	text-decoration: underline;
+	color: purple;
+
+}
+
+.dropbtn{
+	text-decoration: underline;
+	color: purple;
+	font-family: "Sofadi One";
+	font-size: 18px;
+}
+
+#section1{
+
+}
+
+#img_div{
+	
+	
+	align-content: center;
+	
+}
+
+.column{
+	
+	flex: 30%;
+	
+}
+
+.row{
+	
+	display: flex;
+	
+}
+
+#content_row{
+	
+	border: 2px solid;
+	border-color: black;
+	border-radius: 5px;
+	padding: 5px;
+	
+}
+
+.navbar{
+	
+	text-align: right;
+	
+}
+
+#row_header{
+	
+	border: 2px solid black;
+	border-radius: 5px;
+	padding: 5px;
+	
 }
